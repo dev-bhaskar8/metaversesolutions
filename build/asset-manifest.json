@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6e219079.css",
+    "main.js": "/static/js/main.b010506d.js",
+    "static/media/ethlogo.svg": "/static/media/ethlogo.b3ec96d98c72a942e947.svg",
+    "static/media/bgmobile.svg": "/static/media/bgmobile.1e0b2d0b1568830f2d6c.svg",
+    "index.html": "/index.html",
+    "main.6e219079.css.map": "/static/css/main.6e219079.css.map",
+    "main.b010506d.js.map": "/static/js/main.b010506d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e219079.css",
+    "static/js/main.b010506d.js"
+  ]
+}

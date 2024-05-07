@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+body{
+  background-image: url("../public/assets/bgmobile.svg");
+  background-repeat: no-repeat;
+  
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 4em 4em 4em;
+  margin-left: 3em;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+nav > div {
+  display: flex;
+  justify-content: space-between;
+  /* background-color:rgba(174, 92, 255, 0.719); */
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 0.5em;
+}
+nav > div > a {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff6f6;
+  padding-right: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  cursor: pointer;
+  
+}
+nav > svg {
+  display: none;
+
+}
+nav > div > a:hover{
+  text-decoration: underline;
+}
+
+nav > img {
+  width: 5em;
+  height: 5em;
+}
+
+nav > div > button {
+  background: #FFFFFF;
+  border-radius: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: 800;
+  font-size: 1rem;
+  color: #000000;
+  padding: 1em;
+  cursor: pointer;
+  width: 16em;
+}
+
+nav > div > svg {
+  display: none;
+}
+
+
+.metaverse{
+  opacity: 50%;
+  position: fixed;
+  height: 52em;
+  width: 52em;
+  right:0;
+  bottom:0;
+  border-radius: 0;
+  z-index: -1;
+}
+
+
+.hero{
+  width: 37em;
+  height: 38em;
+  margin-left: 8em;
+  margin-bottom: 8em;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 4em;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+}
+
+h3{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-right: 4em;
+}
+
+.frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 0.5em 0.5em 1.5em;
+  width: 32em;
+  height: 4.5em;
+  left: 8.5em;
+  top: 33em;
+  background: #FFFFFF;
+  border: auto;
+  box-sizing: border-box;
+  box-shadow: 0px 0.25em 0.25em rgba(0, 0, 0, 0.05);
+  border-radius: 0.5em;
+}
+
+.frame > input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  border: none;
+  outline: none;
+  font-size: 13px;
+  text-indent: 30px;
+  width: 100%;
+  background-image: url(../public/assets/ethlogo.svg);
+  background-repeat: no-repeat;
+}
+.frame > button {
+  background: #000000;
+  border-radius: 8px;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin: 0.5em; 
+
+}
+
+
+footer {
+  width: 37em;
+  height: 20em;
+  margin-left: 8em;
+  margin-top: 15em;
+}
+
+footer > div > h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-top: 6px;
+}
+footer > div > img {
+  width: 3em;
+  height: 3em;
+  margin-right: 1em;
+}
+
+footer > div > svg {
+  margin-left: 1em;
+  margin-top: 6px;
+}
+
+footer > div{
+  display: flex;
+  justify-content: last baseline;
+  
+}
+
+
+.vaas {
+  border-radius: 100%;
+  width: 2.5em;
+  height: 2.5em;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+@media only screen and (max-width: 750px) {
+  .metaverse{
+    left:16em;
+  }
+  .open{
+    background-color: #0A0A24;
+    display: block;
+    position: fixed;
+    right:0;
+    top:0;
+    height: 100%;
+    border-radius: 0;
+    width: 50%;
+    padding: 0;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-out;
+  }
+
+  .close{
+    background-color: #0A0A24;
+    display: block;
+    position: fixed;
+    right:0;
+    top:0;
+    height: 100%;
+    border-radius: 0;
+    width: 50%;
+    padding: 0;
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;    
+  }
+  nav > svg {
+    display: block;
+    position: fixed;
+    right:0;
+    margin-top: 1em;
+    margin-right: 6em;
+    width: 2em;
+    height: 2em;
+  }
+  nav > div > a {
+    display: block;
+    padding-left: 0;
+    margin-left: 0;
+    padding-left: 2em;
+    width: 140%;
+  }
+  nav > div > a:hover {
+    background-color:#3e37c2;
+  }
+  nav > div > button {
+    margin-left: 2em;
+  }
+  nav > div > svg {
+    display: block;  
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: 60%;
+    
+  }
+  
+
+}
